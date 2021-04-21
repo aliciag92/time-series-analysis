@@ -55,14 +55,14 @@ avg_uncertainty | the 95% confidence interval around the average | float
 - Move download to desired folder on personal device.
 - Define function to get climate data from local csv and return as a pandas DataFrame.
 - Read csv in notebook by using wrangle.py script.
-- Function to acquire the data is included in [wrangle.py](https://github.com/aliciag92/time-series-analysis/blob/main/wrangle.py.
+- Function to acquire the data is included in [wrangle.py](https://github.com/aliciag92/time-series-analysis/blob/main/wrangle.py).
 - Complete initial data summarization and plot distributions of individual variables to get to know data and know what is needed to be prepped/cleaned.
 
 #### 2. Prepare
 - Define functions to:
     - clean climate data and return as a cleaned pandas DataFrame.
     - split the dataframe into train, validate, test.
-- Functions to prepare the data are included in [wrangle.py](https://github.com/aliciag92/time-series-analysis/blob/main/wrangle.py.
+- Functions to prepare the data are included in [wrangle.py](https://github.com/aliciag92/time-series-analysis/blob/main/wrangle.py).
 
 #### 3. Explore
 - Address questions posed in planning and brainstorming to forecast temperatures.
