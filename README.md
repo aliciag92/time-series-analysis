@@ -8,19 +8,21 @@
 
 ### Description and Goals
 
-brief description
+Some say climate change is the biggest threat of our age while others say it’s a myth based on dodgy science.
+
+Early data was collected by technicians using mercury thermometers, where any variation in the visit time impacted measurements. In the 1940s, the construction of airports caused many weather stations to be moved. In the 1980s, there was a move to electronic thermometers that are said to have a cooling bias. Given this complexity, there are a range of organizations that collate climate trends data.
+
+For this project, I will be focusing on average temperatures specifically from Texas.
 
 
 ### Objectives for this project include:
-- Identifying the _______.
+- Forecast Texas temperatures more accurately.
 - Documenting process and analysis throughout the data science pipeline.
 - Demonstrating the information that was discovered.
 - Deliverables:
-    - README.md file containing overall project information, how to reproduce work, and notes from project planning.
-    - [Jupyter Notebook Report](insert link) detailing the pipeline process.
-    - Python module that automates the data [wrangling](insert link).
-
-****
+    - [README.md](https://github.com/aliciag92/time-series-analysis/blob/main/README.md) file containing overall project information, how to reproduce work, and notes from project planning.
+    - [Jupyter Notebook Report](https://github.com/aliciag92/time-series-analysis/blob/main/forecasting-temp-report.ipynb) detailing the pipeline process.
+    - Python module that automates the data [wrangling](https://github.com/aliciag92/time-series-analysis/blob/main/wrangle.py).
 
 ### Data Dictionary
 
@@ -73,13 +75,14 @@ avg_uncertainty | the 95% confidence interval around the average | float
 - Summarize performance, interpret, and document results.
 
 #### 5. Deliver
-- 
+- The previous cycle model performs with an average temperature error of 1.68 degrees Celsius.
+- This would be the best performing model moving forward for predicting average temperature and average temperature uncertainity for Texas
 
 
 ****
 
 ### Recreating Project
-- To reproduce this project, download [wrangle.py](https://github.com/aliciag92/time-series-analysis/blob/main/wrangle.py) and [forecasting-temp-report.ipynb](https://github.com/aliciag92/time-series-analysis/blob/main/forecasting-temp-report.ipynb) in your working directory and follow the steps from the pipeline process above.
+- To reproduce this project, download dataset from Kaggle, [wrangle.py](https://github.com/aliciag92/time-series-analysis/blob/main/wrangle.py) and [forecasting-temp-report.ipynb](https://github.com/aliciag92/time-series-analysis/blob/main/forecasting-temp-report.ipynb) in your working directory and follow the steps from the pipeline process above.
 - You can always obtain more features, or remove the ones you do not want, do your own exploring, modeling, and evaluating to deliver any new information.
 
 ****
