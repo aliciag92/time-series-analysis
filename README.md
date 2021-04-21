@@ -1,5 +1,5 @@
 # Texas Temperature Forecast
-![Weather](insert weather image)
+![Weather](https://theyorkshiresociety.org/wp-content/uploads/2021/03/texas-flag-header-1080x675.jpg)
 ****
 
 ## About the Project
@@ -26,18 +26,16 @@ brief description
 
 Feature      | Description   | Data Type
 ------------ | ------------- | ------------
- |  | 
- |  | 
- |  | 
- |  | 
- |  | 
+date | starts in 1750 for average land temperature and 1850 for max and min land temperatures and global ocean and land temperatures  | datetime
+avg_temp | global average land temperature in celsius | float
+avg_uncertainty | the 95% confidence interval around the average | float
 
 **** 
 
 ### Initial hypotheses
-- 
-- 
-- 
+- Does the data increase, decrease, or stay the same over time?
+- What is the distribution of yearly average temperature and yearly average uncertainty?
+- What is the distribution of monthly average temperature and monthly average uncertainty?
 
 
 ****
@@ -51,26 +49,25 @@ Feature      | Description   | Data Type
 
 
 #### 1. Acquire
-- Download dataset from [Kaggle](insert link).
+- Download dataset from [Kaggle](https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data?select=GlobalLandTemperaturesByState.csv).
 - Move download to desired folder on personal device.
 - Define function to get climate data from local csv and return as a pandas DataFrame.
 - Read csv in notebook by using wrangle.py script.
-- Function to acquire the data is included in [wrangle.py](insert link).
+- Function to acquire the data is included in [wrangle.py](https://github.com/aliciag92/time-series-analysis/blob/main/wrangle.py.
 - Complete initial data summarization and plot distributions of individual variables to get to know data and know what is needed to be prepped/cleaned.
 
 #### 2. Prepare
 - Define functions to:
     - clean climate data and return as a cleaned pandas DataFrame.
     - split the dataframe into train, validate, test.
-- Functions to prepare the data are included in [wrangle.py](insert link).
+- Functions to prepare the data are included in [wrangle.py](https://github.com/aliciag92/time-series-analysis/blob/main/wrangle.py.
 
 #### 3. Explore
-- Address questions posed in planning and brainstorming and figure out ______.
+- Address questions posed in planning and brainstorming to forecast temperatures.
 - Create visualizations of variables and run statistical tests (as many as needed).
 - Summarize key findings and takeaways.
 
 #### 4. Model/Evaluate
-- Establish and evaluate a baseline model?
 - Generate various time series analysis algorithms with varying hyperparameters (as many as needed) and settle on the best algorithm by comparing evaluation metrics.
 - Choose the best model and test that final model on out-of-sample data.
 - Summarize performance, interpret, and document results.
@@ -78,18 +75,11 @@ Feature      | Description   | Data Type
 #### 5. Deliver
 - 
 
-****
-
-#### Next Steps
-With more time, I would like to:
-- 
-- 
-- 
 
 ****
 
 ### Recreating Project
-- To reproduce this project, download [wrangle.py](insert link) and [movie-revenue-report.ipynb](insert link) in your working directory and follow the steps from the pipeline process above.
+- To reproduce this project, download [wrangle.py](https://github.com/aliciag92/time-series-analysis/blob/main/wrangle.py) and [forecasting-temp-report.ipynb](https://github.com/aliciag92/time-series-analysis/blob/main/forecasting-temp-report.ipynb) in your working directory and follow the steps from the pipeline process above.
 - You can always obtain more features, or remove the ones you do not want, do your own exploring, modeling, and evaluating to deliver any new information.
 
 ****
